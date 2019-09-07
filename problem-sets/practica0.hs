@@ -16,3 +16,4 @@ quitaElemento lista elemento = [e | e <- lista, e /= elemento]
 -- Ejercicio 3
 divisoresPropios :: Int -> [Int]
 divisoresPropios n = [i | i <- [1..(n-1)], n `mod` i == 0]
+
